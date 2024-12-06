@@ -109,8 +109,19 @@ Follow these links to interact with the HTML dashboards we created, and have fun
 - [2024 Presidential Debate 2: Harris vs Trump](https://html-preview.github.io/?url=https://github.com/deeptika/vibe-check-blog/blob/24b1daa276750a610a0750e600ee184134304a54/static/vis_2024%20Presidential%20Debate%202_%20Harris%20vs%20Trump_initial_model.html)
 - [2024 Vice-presidential Debate: Vance vs Walz](https://html-preview.github.io/?url=https://github.com/deeptika/vibe-check-blog/blob/24b1daa276750a610a0750e600ee184134304a54/static/vis_2024%20Vice%20Presidential%20Debate_%20Vance%20vs%20Walz_initial_model.html)
 
+### Exploring Political Bias: Insights from YouTube Comments
 
+To uncover political leanings in YouTube discussions, we conducted a detailed analysis by looking into the political orientation of various news networks. We used a scale from -2 for strongly left-leaning to +2 for strongly right-leaning networks, based on the Allsides media bias chart. Instead of manually reading thousands of comments, we transformed them into numerical values using [TF-IDF vectorization](https://scikit-learn.org/1.5/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) to highlight the most prominent words and phrases. This allowed us to handle the data more effectively.
 
+Next, we simplified this complex information to understand broader trends, which we then illustrated in an easy-to-read graph. This graph helped us spot patterns, showing us how the political tilt of a news channel might influence the types of comments it receives. These visual findings not only confirmed some of our expectations about media bias but also provided a clear, tangible way to see how political discussion varies across different media channels. Here's the scatter plot that visualizes the bias of each comment (each point on the scatter plot represents a comment):
+
+![Visualization: t-SNE scatter plot](./images/media%20bias%20t-sne.png)
+
+The [t-SNE visualization](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding) of YouTube comments by political bias provides a fascinating snapshot of online political discussions. In this scatter plot, comments from left-leaning sources are marked in blue, center-leaning in green, and right-leaning in orange.
+
+Noticeably, there is a significant blending of blue and orange dots, indicating that topics discussed by left and right commenters often overlap, suggesting similarities in language usage or shared concerns across these groups. The green dots, representing centrist comments, are less frequent and scattered throughout, hinting at a lower presence or less distinctive linguistic patterns among moderate views.
+
+This visual mingling emphasizes the complex nature of online political discourse, where diverse opinions often intersect, reflecting a vibrant, engaged community across the spectrum. The plot underscores the importance of considering how we categorize and understand these interactions, hinting at underlying commonalities that might bridge divides or reveal shared priorities among seemingly disparate groups.
 
 
 
