@@ -68,7 +68,7 @@ A side note on [YouTube's election-specific policies](https://www.youtube.com/ho
 
 ### Simplifying Complexity: Text Summarization in Action
 
-In Vibe Check, we employed text summarization to condense extended discussions into digestible, concise summaries that highlight the core sentiments and prevailing opinions about the presidential debates.
+In Vibe Check, we employed text summarization to condense extended discussions into digestible, concise summaries that highlight the core sentiments and prevailing opinions about the presidential debates. Here's a snapshot of the output:
 
 ![Text Summaries of the 4 debates](./images/text%20summaries.png)
 
@@ -76,7 +76,22 @@ Across 2020 and 2024, the repetitive emphasis on and endorsement of President-El
 
 Along with chant-like support for the candidates, we see a quirky inclusion of a phrase related to "Russian bot homies," which might reflect the notorious issue of bot involvement in online discussions. The vice-presidential debate reflects a deeply polarized viewer base and a mixed bag of views, with some comments highly praising Vance’s performance.
 
+### Thematic Analysis of Debates Using Latent Dirichlet Allocation
 
+We dove into our dataset using a technique called [Latent Dirichlet Allocation (LDA)](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) to really dig into the themes hidden in the comments. LDA is a statistical model that identifies topics in a collection of documents by grouping together frequently co-occurring words.
+
+We hit optimal results with **10 topics**, landing a coherence score of **0.552**. A [coherence score](https://towardsdatascience.com/understanding-topic-coherence-measures-4aa41339634c) is a rating for how relevant or how much sense the words in each topic make together – the closer to 1, the clearer and more distinct the topic.
+
+With a score of 0.552, our topics are moderately interpretable. While not exceptionally high, this score indicates that there is a reasonable degree of thematic relevance and distinction within the derived topics, making the model useful for exploring and understanding the main themes in the debates. Here's a summary of interesting findings of each topic when LDA was performed for the entire dataset:
+
+![Full Dataset - LDA summary](./images/topic%20modeling_full%20dataset_summary.png)
+
+We've jazzed up our findings with some incredible visualizations using the [`pyLDAvis`](https://pypi.org/project/pyLDAvis/) library – it’s a fantastic way to see what each of the 10 topics is all about. Follow these links to interact with the HTML dashboards we created, and have fun exploring the visual maps of our analysis!
+- [Full Dataset](./static/vis_full_dataset_initial_model.html)
+- [2020 Presidential Debate 1: Biden vs Trump](./static/vis_2020%20Presidential%20Debate_%20Biden%20vs%20Trump_initial_model.html)
+- [2024 Presidential Debate 1: Biden vs Trump](./static/vis_2024%20Presidential%20Debate%201_%20Biden%20vs%20Trump_initial_model.html)
+- [2024 Presidential Debate 2: Harris vs Trump](./static/vis_2024%20Presidential%20Debate%202_%20Harris%20vs%20Trump_initial_model.html)
+- [2024 Vice-presidential Debate: Vance vs Walz](./static/vis_2024%20Vice%20Presidential%20Debate_%20Vance%20vs%20Walz_initial_model.html)
 
 
 
