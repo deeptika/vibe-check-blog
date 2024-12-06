@@ -86,12 +86,30 @@ With a score of 0.552, our topics are moderately interpretable. While not except
 
 ![Full Dataset - LDA summary](./images/topic%20modeling_full%20dataset_summary.png)
 
-We've jazzed up our findings with some incredible visualizations using the [`pyLDAvis`](https://pypi.org/project/pyLDAvis/) library – it’s a fantastic way to see what each of the 10 topics is all about. Follow these links to interact with the HTML dashboards we created, and have fun exploring the visual maps of our analysis!
+We've also performed analysis per debate, whose key observations are as follows:
+- The 2020 Presidential Debate had mentions of COVID-19 + vaccines, and there was significant
+talk about moderators (biased, interrupting)
+- The 2024 Presidential Debate 1 had mentions of the candidates themselves, their age, and
+emphasis on America + voting.
+- The 2024 Presidential Debate 2 sees mentions of Kamala Harris (new Democrat candidate) and
+a significant rise in policies (war, abortion, tax, inflation even the pandemic). There is still talk
+about the debate itself, moderators, and fact-checking.
+- The 2024 Vice presidential debate mentions the candidates (J D Vance, Tim Walz), the
+presidential candidates, support and polling, not to mention smug nicknames.
+
+
+We've jazzed up our findings with some incredible visualizations using the [`pyLDAvis`](https://pypi.org/project/pyLDAvis/) library – it’s a fantastic way to see what each of the 10 topics is all about.
+
+Each visualization dashboard allows the exploring of different topics that our LDA model has identified from the YouTube comments. By hovering over the various bubbles, we can see the top keywords that are driving the topics. To see how specific terms play a role in political discussions, we can click on a topic to highlight its associated terms and get a clearer view of how often they appear and their relevance within that topic. Adjusting the relevance metric will help us view less frequent but more exclusive terms to each topic or broad terms that are common across multiple topics.
+
+Follow these links to interact with the HTML dashboards we created, and have fun exploring the visual maps of our analysis!
 - [Full Dataset](https://html-preview.github.io/?url=https://github.com/deeptika/vibe-check-blog/blob/24b1daa276750a610a0750e600ee184134304a54/static/vis_full_dataset_initial_model.html)
 - [2020 Presidential Debate 1: Biden vs Trump](https://html-preview.github.io/?url=https://github.com/deeptika/vibe-check-blog/blob/24b1daa276750a610a0750e600ee184134304a54/static/vis_2020%20Presidential%20Debate_%20Biden%20vs%20Trump_initial_model.html)
 - [2024 Presidential Debate 1: Biden vs Trump](https://html-preview.github.io/?url=https://github.com/deeptika/vibe-check-blog/blob/24b1daa276750a610a0750e600ee184134304a54/static/vis_2024%20Presidential%20Debate%201_%20Biden%20vs%20Trump_initial_model.html)
 - [2024 Presidential Debate 2: Harris vs Trump](https://html-preview.github.io/?url=https://github.com/deeptika/vibe-check-blog/blob/24b1daa276750a610a0750e600ee184134304a54/static/vis_2024%20Presidential%20Debate%202_%20Harris%20vs%20Trump_initial_model.html)
 - [2024 Vice-presidential Debate: Vance vs Walz](https://html-preview.github.io/?url=https://github.com/deeptika/vibe-check-blog/blob/24b1daa276750a610a0750e600ee184134304a54/static/vis_2024%20Vice%20Presidential%20Debate_%20Vance%20vs%20Walz_initial_model.html)
+
+
 
 
 
