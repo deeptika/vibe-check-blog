@@ -35,7 +35,7 @@ Now, do Live chats always come up on live videos? [Unfortunately, no]( https://s
 
 An intriguing case involved those channels which uniquely allowed only itself to post Live chats, such as NBC and Associated Press. Done primarily to fact-check the candidates' statements during the debate, this posed both a challenge and an opportunity to further enhance the authenticity and depth of our analysis.
 
-** A summary of the networks we surveyed and scraped
+**_A summary of the networks we surveyed and scraped:_**
 
 | **Network**                     | **Media Bias** |
 |---------------------------------|----------------|
@@ -65,6 +65,17 @@ Through these meticulous efforts, we effectively consolidated, processed, and cl
 A side note on [YouTube's election-specific policies](https://www.youtube.com/howyoutubeworks/our-commitments/supporting-political-integrity/) — understanding how the platform handles election content was essential for adapting our strategies.
 
 ## Unpacking Data: How We Analyze Political Sentiments
+
+### Simplifying Complexity: Text Summarization in Action
+
+In Vibe Check, we employed text summarization to condense extended discussions into digestible, concise summaries that highlight the core sentiments and prevailing opinions about the presidential debates.
+
+![Text Summaries of the 4 debates](./images/text%20summaries.png)
+
+Across 2020 and 2024, the repetitive emphasis on and endorsement of President-Elect Trump is present. The text summaries underscore a fascinating trend: overwhelming support for the Republican candidates, even within debates aired on more left-leaning networks. This was particularly interesting during the second 2024 presidential debate, where such a pattern wasn’t just evident; it dominated the summarized discourse.
+
+Along with chant-like support for the candidates, we see a quirky inclusion of a phrase related to "Russian bot homies," which might reflect the notorious issue of bot involvement in online discussions. The vice-presidential debate reflects a deeply polarized viewer base and a mixed bag of views, with some comments highly praising Vance’s performance.
+
 
 
 
