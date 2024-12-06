@@ -131,12 +131,11 @@ Perhaps our most surprising discovery challenges conventional wisdom about media
 The 2024 Vice Presidential debate saw a surge in policy talk and candidate chatter. Looks like the understudies are stealing some of the spotlight!
 
 ## What's Next on the Vibe Check Agenda?
+The implications of our study have far-reaching potential. For political strategists, these insights into public sentiment can guide campaign strategies and messaging. Journalists and media outlets might use our data to craft more nuanced narratives about voter behavior and sentiment. Furthermore, policymakers could consider these public opinions when drafting policies that resonate with the electorate's preferences.
 
-As we approach the 2024 election, our work continues to evolve. We're enhancing our analysis tools, developing more sophisticated visualization techniques, and expanding our understanding of how media influences public opinion. The insights we've gained don't just represent academic findings – they offer a window into the changing nature of political discourse in the digital age.
+As we leave the 2024 election cycle, our work continues to evolve. We're enhancing our analysis tools, developing more sophisticated visualization techniques, and expanding our understanding of how media influences public opinion. The insights we've gained don't just represent academic findings – they offer a window into the changing nature of political discourse in the digital age.
 
 Through Vibe Check, we're not just analyzing comments; we're mapping the landscape of modern political dialogue, one comment at a time. Our findings suggest that despite the apparent polarization in American politics, there might be more common ground in how we engage with political content than previously thought.
-
-
 
 
 
