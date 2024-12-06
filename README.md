@@ -88,7 +88,7 @@ With a score of 0.552, our topics are moderately interpretable. While not except
 
 We've jazzed up our findings with some incredible visualizations using the [`pyLDAvis`](https://pypi.org/project/pyLDAvis/) library – it’s a fantastic way to see what each of the 10 topics is all about. Follow these links to interact with the HTML dashboards we created, and have fun exploring the visual maps of our analysis!
 - [Full Dataset](./static/vis_full_dataset_initial_model.html)
-- [2020 Presidential Debate 1: Biden vs Trump](./static/vis_2020%20Presidential%20Debate_%20Biden%20vs%20Trump_initial_model.html)
+- [2020 Presidential Debate 1: Biden vs Trump](https://htmlpreview.github.io/./static/vis_2020%20Presidential%20Debate_%20Biden%20vs%20Trump_initial_model.html)
 - [2024 Presidential Debate 1: Biden vs Trump](./static/vis_2024%20Presidential%20Debate%201_%20Biden%20vs%20Trump_initial_model.html)
 - [2024 Presidential Debate 2: Harris vs Trump](./static/vis_2024%20Presidential%20Debate%202_%20Harris%20vs%20Trump_initial_model.html)
 - [2024 Vice-presidential Debate: Vance vs Walz](./static/vis_2024%20Vice%20Presidential%20Debate_%20Vance%20vs%20Walz_initial_model.html)
