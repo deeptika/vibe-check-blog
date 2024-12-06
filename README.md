@@ -33,7 +33,30 @@ Therefore, we had to set up a unique data scraper tailored for Live chats using 
 
 Now, do Live chats always come up on live videos? [Unfortunately, no]( https://support.google.com/youtube/answer/9826490?hl=en#zippy=%2Caccess-channel-activity-from-live-chat-feed). YouTube, being the flexible platform it is, does allow channel owners to ban Live chats or restrict them to a small group of users. And to our surprise (and chagrin), we found most giant media networks to prefer these options. Despite these hurdles, we managed to survey and track down several networks that still supported them, albeit a few of them with restrictions, and adapted our scraping strategies accordingly.
 
-An intriguing case involved NBC, which uniquely allowed only its channel to post Live chats, primarily for fact-checking the candidates' statements during the debate. This posed both a challenge and an opportunity to further enhance the authenticity and depth of our analysis.
+An intriguing case involved those channels which uniquely allowed only itself to post Live chats, such as NBC and Associated Press. Done primarily to fact-check the candidates' statements during the debate, this posed both a challenge and an opportunity to further enhance the authenticity and depth of our analysis.
+
+** A summary of the networks we surveyed and scraped
+
+| **Network**                     | **Media Bias** |
+|---------------------------------|----------------|
+| Wall Street Journal             | Lean Right     |      
+| C-SPAN                          | Center         |
+| Fox News                        | Lean Left      |
+| Sky News                        | Lean Left      |
+| MSNBC                           | Left           |
+| News Max                        | Right          |
+| CBS                             | Lean Left      |
+| NBC                             | Lean Left      |
+| USA Today                       | Lean Left      |
+| CNN TV-18                       | Center         |
+| WFLA                            | Center         |
+| Kamala Harris's YouTube Channel | Left           |
+| Tim Walz's YouTube Channel      | Left           |
+| Washington Post                 | Lean Left      |
+| News Max                        | Right          |
+| CNBC TV-18                      | Center         |
+| WFAA                            | Left           |
+| Associated Press                | Left           |
 
 Through these meticulous efforts, we effectively consolidated, processed, and cleaned the scraped data to form a **dataset with over 190,000 entries**.
 
